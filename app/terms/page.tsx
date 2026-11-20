@@ -11,8 +11,8 @@ export default function TermsPage() {
   return (
     <LegalShell
       title="Terms of Service"
-      description="These terms define acceptable use for OpenReply's hosted Instagram comment-to-DM campaign service."
-      updatedAt="May 24, 2026"
+      description="This OpenReply instance is run by Jamal Campbell (UK) for his own Instagram account only. It is not offered as a service to anyone else."
+      updatedAt="November 19, 2026"
     >
       <section>
         <h2 className="text-xl font-bold text-white">Authorized Use</h2>
@@ -45,9 +45,9 @@ export default function TermsPage() {
       <section>
         <h2 className="text-xl font-bold text-white">Open-Source Core</h2>
         <p className="mt-3">
-          The public repository is MIT licensed. Hosted SaaS infrastructure,
-          managed support, agency workflows, analytics, reports, and other paid
-          service features may be provided separately from the open-source core.
+          This instance runs the open-source OpenReply software (MIT licence)
+          for one account. Nobody else can sign up: sign-in is limited to the
+          account owner. How data is handled is set out in the Privacy Policy.
         </p>
       </section>
     </LegalShell>
